@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
-
-
-body{
-  font-family: 'Dancing Script', cursive;
+body {
+  font-family: "Dancing Script", cursive;
   font-size: 2rem;
   text-align: center;
   position: relative;
- 
-
 }
 /*Input*/
 #txt-input {
@@ -18,7 +14,7 @@ body{
   margin: 1rem;
   margin-left: auto;
   margin-right: auto;
-  
+  font-size: xx-large;
 }
 /*Output*/
 #output {
@@ -28,7 +24,7 @@ body{
   height: 10vh;
   margin: 1rem;
   padding: 1rem;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,25 +36,28 @@ body{
 
 /*navigation bar*/
 
-.navigation{
+.navigation {
   background-color: var(--primary-colour);
   padding: 1rem;
   color: black;
+  
 }
 
-.container{
+.container {
   max-width: 600px;
   margin: auto;
   padding: 1rem;
-  
 }
 
-.btn{
+.btn {
   background-color: var(--primary-colour);
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 1rem;
 }
 
-.txt-area{
-  font-family: 'Dancing Script', cursive;
-  
-.footer
+.txt-area {
+  font-family: "Dancing Script", cursive;
+}
+.newstyle {
+  font-size: 1rem;
+}
