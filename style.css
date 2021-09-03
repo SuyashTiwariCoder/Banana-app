@@ -1,6 +1,64 @@
-#txt-input{
-    width: 90%;
-    height: 20vh;
-    display: block;
-    margin: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+
+body{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+ 
+
 }
+/*Input*/
+#txt-input {
+  width: 90%;
+  height: 20vh;
+  display: block;
+  margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+/*Output*/
+#output {
+  border: 1px solid black;
+  width: 80%;
+
+  height: 10vh;
+  margin: 1rem;
+  padding: 1rem;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+/*roots*/
+
+:root {
+  --primary-colour: #fbbf24;
+}
+
+/*navigation bar*/
+
+.navigation{
+  background-color: var(--primary-colour);
+  padding: 1rem;
+  color: black;
+}
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  
+}
+
+.btn{
+  background-color: var(--primary-colour);
+  font-family: 'Dancing Script', cursive;
+}
+
+.txt-area{
+  font-family: 'Dancing Script', cursive;
+  
+.footer
